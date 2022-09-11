@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
+	char c;
+	int i;
+	long li;
+	long long lli;
 	float f;
 
-printf("size of a char: %10 byte(s)\n", ()unsigned long)sizeof(d));
-printf("size of an int: %10 byte(s)\n", ()unsigned long)sizeof(d));
-printf("size of a char: %10 byte(s)\n", ()unsigned long)sizeof(d));
-printf("size of a char: %10 byte(s)\n", ()unsigned long)sizeof(d));
-printf("size of a char: %10 byte(s)\n" ()unsigned long)sizeof(d));
+	printf("size of a char: %1d byte(s)\n", sizeof(c));
+	printf("size of an int: %1d byte(s)\n", sizeof(i));
+	printf("size of a long int: %10 byte(s)\n", sizeof(li));
+	printf("size of a long long int: %10 byte(s)\n", sizeof(lli));
+	printf("size of a float: %10 byte(s)\n" sizeof(f));
 
 	return (0);
 }
