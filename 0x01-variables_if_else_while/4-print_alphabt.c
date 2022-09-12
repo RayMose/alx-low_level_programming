@@ -1,25 +1,20 @@
-
 #include <stdio.h>
 
-/*
- *  * main -Omit some alphabets
- *   *
- *    *
- *     *Return: Always (Success).
- *
- *      */
+/**
+* main -Omit some alphabets
+*
+*Return: Always (Success).
+*
+*/
 int main(void)
 {
 
-	    char c;
+	char ch;
 
-	        for (c = 'a'; c <= 'z'; c++)
-			       if (c != 'c' && c != 'q')
-				               putchar(c);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		if (ch != 'e' && ch != 'q')
+			putchar(ch);
+	putchar('\n');
 
-
-
-		    putchar('\n');
-
-		        return (0);
+	return (0);
 }
