@@ -6,12 +6,15 @@
  * @n: The number of elements in the array.
  */
 
-void reverse_array(int *a, int n)
+char *string_toupper(char *str)
 {
-	int tmp, index;
+	int index = 0;
 
-	for (index = n - 1; index >= n / 2; index--)
-		tmp = a[n - 1 - index];
-		a[n - 1 - index] = a[index];
-		a[index] = tmp;
+	while (str[index++])
+	{
+		if (str[index] >= 'a' && str[index] <= 'z')
+			str[index] -= 32;
+	}
+
+	return (str);
 }
